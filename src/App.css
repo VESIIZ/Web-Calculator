@@ -1,0 +1,49 @@
+body{
+  background-color: #1e1e1e;
+}
+
+.App {
+  width: 100%;
+  height: 400px;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+
+.titulo {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.contenedor-general {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-calculadora {
+  justify-content: center;;
+  width: 500px;
+  height: 450px;
+  padding: 18px;
+  padding-top: 15px;
+  border-radius: 20px;
+  background-color:#202124;
+  border: 1px solid rgb(22, 22, 22);
+
+}
+
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

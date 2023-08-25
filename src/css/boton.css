@@ -1,0 +1,45 @@
+.boton-contenedor {
+    font-family: arial,sans-serif;
+    height: 50px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: #3c4043;
+    color: #e8eaed;
+    border-radius: 10px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.boton-contenedor:hover {
+    animation: colorb 0.4s forwards alternate;
+}
+
+.operador {
+    background-color: #5f6368;
+}
+
+.operador:hover {
+    animation: coloro 0.4s forwards alternate;
+}
+
+@keyframes coloro {
+
+    100% {
+        opacity: 0.8;
+    }
+
+}
+
+@keyframes colorb {
+
+    100% {
+        opacity: 0.8;
+    }
+
+}
