@@ -31,7 +31,7 @@
 @keyframes coloro {
 
     100% {
-        opacity: 0.8;
+        background-color: #757b80;
     }
 
 }
@@ -39,7 +39,13 @@
 @keyframes colorb {
 
     100% {
-        opacity: 0.8;
+        background-color: #4e5257;
     }
 
+}
+.boton-contenedor:active{
+    opacity: 0.8;
+}
+.operador:active{
+    opacity: 0.8;
 }

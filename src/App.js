@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <div className='titulo'>
         <h1 >
-          Calculadora
+          Calculator
         </h1>
       </div>
       <div className='contenedor-general'>

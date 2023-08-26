@@ -26,3 +26,6 @@
     }
 
 }
+.boton-clear:active{
+    opacity: 0.8;
+}
